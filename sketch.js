@@ -82,7 +82,7 @@ function draw() {
 
   
 
-  if(keyCode===LEFT_ARROW){
+  if(key===LEFT_ARROW){
 	helicopterSprite.x=helicopterSprite.x-20;
 	Matter.Body.translate(packageBody,{x:-20,y:0})
   }
